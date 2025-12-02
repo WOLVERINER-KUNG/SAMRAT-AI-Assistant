@@ -1,0 +1,55 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Triangle Background -->
+  <polygon points="100,20 180,160 20,160" fill="none" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Triangle Fill (light) -->
+  <polygon points="100,25 175,155 25,155" fill="#1a1a1a" opacity="0.1"/>
+  
+  <!-- Horse Body -->
+  <ellipse cx="100" cy="110" rx="28" ry="32" fill="#000"/>
+  
+  <!-- Horse Neck -->
+  <path d="M 115 95 Q 125 80 130 65" stroke="#000" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Horse Head -->
+  <circle cx="135" cy="55" r="12" fill="#000"/>
+  
+  <!-- Horse Snout -->
+  <ellipse cx="145" cy="57" rx="6" ry="5" fill="#000"/>
+  
+  <!-- Horse Ear 1 -->
+  <polygon points="130,42 128,30 135,38" fill="#000"/>
+  
+  <!-- Horse Ear 2 -->
+  <polygon points="140,40 145,25 148,37" fill="#000"/>
+  
+  <!-- Horse Eye -->
+  <circle cx="138" cy="52" r="2" fill="#fff"/>
+  
+  <!-- Horse Mane -->
+  <path d="M 133 50 Q 135 40 138 30 Q 140 35 142 45" stroke="#000" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Front Left Leg -->
+  <line x1="85" y1="135" x2="80" y2="155" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Front Right Leg -->
+  <line x1="95" y1="135" x2="95" y2="155" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Back Left Leg -->
+  <line x1="75" y1="130" x2="65" y2="155" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Back Right Leg -->
+  <line x1="105" y1="130" x2="115" y2="155" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Tail -->
+  <path d="M 72 115 Q 60 120 55 135" stroke="#000" stroke-width="5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Triangle Outline (Top) -->
+  <line x1="100" y1="20" x2="180" y2="160" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Triangle Outline (Bottom Left) -->
+  <line x1="20" y1="160" x2="100" y2="20" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Triangle Outline (Bottom) -->
+  <line x1="20" y1="160" x2="180" y2="160" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+</svg>
